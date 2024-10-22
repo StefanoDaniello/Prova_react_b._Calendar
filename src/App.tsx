@@ -1,18 +1,11 @@
-// import { useState } from "react";
-// import {
-//   BasicCalendar,
-//   // ControlCalendar,
-//   // CustomizingCalendar,
-//   // AdvancedCalendar,
-// } from "./Components/BasicCalendar";
-
-import BasicCalendar from "./Components/BasicCalendar/BasicCalendar";
+// import BasicCalendar from "./Components/BasicCalendar/BasicCalendar";
+import ControlCalendar from "./Components/ControlCalendar/ControlCalendar";
 
 function App() {
   return (
     <div style={{ height: "95vh" }}>
-      <BasicCalendar />
-      {/* <ControlCalendar /> */}
+      {/* <BasicCalendar /> */}
+      <ControlCalendar />
       {/* <CustomizingCalendar /> */}
       {/* <AdvancedCalendar /> */}
     </div>
